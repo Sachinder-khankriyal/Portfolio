@@ -9,11 +9,16 @@
 
 <body>
     <form>
-        <input type="text" placeholder="Enter name">
+        <input type="text" placeholder="Enter name" required>
         <input type="email" placeholder="Enter email">
-        <input type="number" placeholder="Enter age">
+        <input type="number" placeholder="Enter age" min="18" max="60">
         <input type="date">
         <input type="password" placeholder="Enter password">
+        <input type="text" pattern="[0-9]{10}" title="Enter exactly 10 digit" required>
+        <input type="number" min="0" max="100" step="5">
+        <input type="text" value="Employee-101" readonly>
+        <input type="text" value="Employee-101" disabled>
+        <input type="submit" value="Submit">
     </form>
 </body>
 
