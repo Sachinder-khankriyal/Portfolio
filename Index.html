@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 viewport-fit=cover">
     <title>Sachinder Prasad</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
+    <nav id="">
         <ul>
             <li><a href="#home-section">Home</a></li>
             <li><a href="#about-section">About</a></li>
@@ -16,30 +17,43 @@
             <li><a href="#contact-section">Contact</a></li>
         </ul>
     </nav>
-    <section id="home-section">
-        <p>Hello I am <span>Sachinder</span></p>
-    </section>
-    <section id="about-section">
-        <h2>About</h2>
-        <p>4.3 Years of experience in development of applications using ASP.NET MVC and
-            Web technologies like JQuery, bootstrap.</p>
-    </section>
-    <section id="project-section">
-        <h2>Projects</h2>
-        <div>
-            <img>
-        </div>
-        <div>
-            <p></p>
-        </div>
-    </section>
-    <section id="contact-section">
-        <h2>Contact</h2>
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-        <textarea placeholder="Message"></textarea>
-        <button>Submit</button>
-    </section>
+    <main>
+        <section id="home-section" aria-describedby="intro">
+            <p id="intro">Hello I am <span>Sachinder</span></p>
+        </section>
+        <section id="about-section" aria-describedby="about">
+            <h2 id="about">About</h2>
+            <p>4.3 Years of experience in development of applications using ASP.NET MVC and
+                Web technologies like JQuery, bootstrap.</p>
+        </section>
+        <section id="project-section" aria-describedby="projects">
+            <h2 id="projects">Projects</h2>
+            <div>
+                <img src="images/project-1.jfif">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda itaque ducimus illum veniam
+                    corporis quo totam sapiente dolorem nulla. Ad nesciunt rerum enim dicta aspernatur fugiat aperiam,
+                    maiores quibusdam hic?</p>
+            </div>
+            <div>
+                <img src="images/project-1.jfif">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda itaque ducimus illum veniam
+                    corporis quo totam sapiente dolorem nulla. Ad nesciunt rerum enim dicta aspernatur fugiat aperiam,
+                    maiores quibusdam hic?</p>
+            </div>
+        </section>
+        <section id="contact-section" aria-describedby="contact">
+            <h2 id="contact">Contact</h2>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button>Submit</button>
+        </section>
+    </main>
+
     <footer>Sachinder Prasad @ 2026</footer>
 </body>
 
